@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">0
+    <!--android:layout_margin="50dp">-->
+
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/big_text"
+            android:background="@drawable/background_login_button"
+            android:text="Login" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/big_text"
+            android:layout_height="0dp"
+            android:background="@drawable/background_register_button"
+            android:text="register" />
+
+</LinearLayout>

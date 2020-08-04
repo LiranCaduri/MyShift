@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="300"
+    android:fromXScale="1.0"
+    android:fromYScale="1.0"
+    android:pivotX="50%p"
+    android:pivotY="50%p"
+    android:toXScale="0.0"
+    android:toYScale="0.0" />
+
+<!--
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator"
+    android:fromDegrees="0" android:toDegrees="360"
+    android:fillAfter="false"
+    android:pivotX="170" android:pivotY="0"
+    android:duration="3000"/>-->
